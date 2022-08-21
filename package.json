@@ -1,0 +1,31 @@
+{
+  "name": "vg",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "homepage": "https://lab.lpchat.ru/newtech/xyaml",
+  "keywords": [],
+  "license": "MIT",
+  "author": {
+    "name": "Denis Ivanov",
+    "email": "teniryte@gmail.com"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "@types/is-plain-object": "^2.0.4",
+    "@types/lodash": "^4.14.184",
+    "lodash": "^4.17.21"
+  },
+  "engines": {
+    "node": ">14.0.0"
+  },
+  "deprecated": false,
+  "description": "eXtended YAML parser",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+git@lab.lpchat.ru:newtech/xyaml.git"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
