@@ -1,3 +1,3 @@
-import { Node } from './node';
+import { Node } from './classes/node';
 
 export { Node };

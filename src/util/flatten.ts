@@ -2,7 +2,7 @@ import { keys, set } from 'lodash';
 
 export function flatten(
   obj: any,
-  skipArrays = true,
+  skipArrays = false,
   parentName: any = null,
   maxLevel = Infinity
 ) {
